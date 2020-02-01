@@ -1,6 +1,8 @@
 package com.nt.test;
 
 import java.util.Locale;
+import java.util.Date;
+import java.util.Calendar;
 
 //import com.nt.test.Math;
 
@@ -18,6 +20,9 @@ public class SampleApp {
 		for (Locale l : locale) {
 			System.out.println(l.getDisplayCountry());
 		}
+		Date date=new Date();
+		System.out.println(date);
+		//Calander cal=new Calendar();
 	}// main
 
 }// class
