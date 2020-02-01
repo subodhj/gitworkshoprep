@@ -3,6 +3,7 @@ package com.nt.test;
 import java.util.Locale;
 import java.util.Date;
 import java.util.Calendar;
+import java.util.GregorianCalendar;
 
 //import com.nt.test.Math;
 
@@ -22,7 +23,9 @@ public class SampleApp {
 		}
 		Date date=new Date();
 		System.out.println(date);
-		//Calander cal=new Calendar();
+		Calendar cal=new GregorianCalendar();
+		System.out.println(cal);
+		
 	}// main
 
 }// class
