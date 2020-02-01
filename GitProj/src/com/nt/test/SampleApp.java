@@ -24,9 +24,7 @@ public class SampleApp {
 		Date date=new Date();
 		System.out.println(date);
 		Calendar cal=new GregorianCalendar();
-		System.out.println(cal);
-		System.out.println("End");
-		
+		System.out.println(cal);		
 	}// main
 
 }// class
