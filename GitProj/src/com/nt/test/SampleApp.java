@@ -23,6 +23,7 @@ public class SampleApp {
 		System.out.println(date);
 		Calendar cal=new GregorianCalendar();
 		System.out.println(cal);	
+		System.out.println("Hai123");
 	}// main
 
 }// class
