@@ -16,7 +16,7 @@ public class SampleApp {
 		// System.out.println(new Math().sum(2, 3));
 		Locale[] locale = Locale.getAvailableLocales();
 		for (Locale l : locale) {
-			System.out.println(l.getDisplayCountry());
+			System.out.println(l.getDisplayCountry()+" : "+l.getDisplayLanguage());
 		}
 	}// main
 
