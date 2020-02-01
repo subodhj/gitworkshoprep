@@ -1,9 +1,7 @@
 package com.nt.test;
 
 import java.util.Locale;
-import java.util.Date;
-import java.util.Calendar;
-import java.util.GregorianCalendar;
+import java.util.*;
 
 //import com.nt.test.Math;
 
@@ -19,7 +17,7 @@ public class SampleApp {
 		// System.out.println(new Math().sum(2, 3));
 		Locale[] locale = Locale.getAvailableLocales();
 		for (Locale l : locale) {
-			System.out.println(l.getDisplayCountry()+" : "+l.getDisplayLanguage());
+			System.out.println(l.getDisplayCountry()+" "+l.getDisplayLanguage());
 		}
 		Date date=new Date();
 		System.out.println(date);
