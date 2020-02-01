@@ -9,6 +9,8 @@ public class SampleApp {
 		for (int i = 1; i <= 10; i++) {
 			System.out.println(i);
 		}
+		WishGenerator generator=new WishGenerator();
+		System.out.println("message-> "+generator.wishMessage("Rama"));
 		//System.out.println(new Math().sum(2, 3));
 	}// main
 
