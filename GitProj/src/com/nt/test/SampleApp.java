@@ -26,7 +26,6 @@ public class SampleApp {
 		System.out.println("Hai123");
 		System.out.println("End");
 		System.out.println("End1");
-		System.out.println("End-dev1");
 	}// main
 
 }// class
