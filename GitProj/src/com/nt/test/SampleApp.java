@@ -30,10 +30,14 @@ public class SampleApp {
 		System.out.println("Edited by Dev1");
 		System.out.println("Edited by TL");
 		System.out.println("Edited by Dev2");
-		Date date1=new Date();
+		Date date1 = new Date();
 		System.out.println(date1);
-		Date date2=new Date();
+		Date date2 = new Date();
 		System.out.println(date2);
+		Calendar calendar1 = new GregorianCalendar();
+		System.out.println(calendar1);
+		Calendar calendar2 = new GregorianCalendar();
+		System.out.println(calendar2);
 	}// main
 
 }// class
