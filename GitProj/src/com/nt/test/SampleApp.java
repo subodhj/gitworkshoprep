@@ -17,17 +17,18 @@ public class SampleApp {
 		// System.out.println(new Math().sum(2, 3));
 		Locale[] locale = Locale.getAvailableLocales();
 		for (Locale l : locale) {
-			System.out.println(l.getDisplayCountry()+" "+l.getDisplayLanguage());
+			System.out.println(l.getDisplayCountry() + " " + l.getDisplayLanguage());
 		}
-		Date date=new Date();
+		Date date = new Date();
 		System.out.println(date);
-		Calendar cal=new GregorianCalendar();
-		System.out.println(cal);	
+		Calendar cal = new GregorianCalendar();
+		System.out.println(cal);
 		System.out.println("Hai123");
 		System.out.println("End");
 		System.out.println("End1");
 		System.out.println("End-TL");
 		System.out.println("Edited by Dev1");
+		System.out.println("Edited by TL");
 		System.out.println("Edited by Dev2");
 	}// main
 
