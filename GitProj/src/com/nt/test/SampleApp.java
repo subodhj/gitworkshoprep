@@ -30,6 +30,8 @@ public class SampleApp {
 		System.out.println("Edited by Dev1");
 		System.out.println("Edited by TL");
 		System.out.println("Edited by Dev2");
+		Date date1=new Date();
+		System.out.println(date1);
 	}// main
 
 }// class
